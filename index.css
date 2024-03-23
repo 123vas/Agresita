@@ -68,6 +68,11 @@ body {
   color: #fff;
   margin-bottom: 20px;
 }
+.feelthefire{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1.5em;
+  margin-top: 5%;
+}
 a {
   text-decoration: none !important;
 }
@@ -96,12 +101,15 @@ a {
     #43c6ac
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
-  box-shadow: 0 4px 15px 0 rgba(49, 196, 190, 0.75);
+  box-shadow: 5px 4px 5px 2px rgba(49, 196, 190, 0.75);
   transition: all 0.5s;
 }
-.popup-button:hover {
+.popup-button:hover{
   transform: scale(1.2);
-  color: white;
+  font-size: 1.5em;
+  padding: 1em 2em;
+  color: #ffffff;
+  
 }
 .anim1 {
   animation-name: fadeIn;
