@@ -83,6 +83,28 @@
             color:white;
             padding: 6px;
         }
+    
+  .slider {
+    overflow: hidden;
+    width: 100%;
+    height: 300px; /* Adjust height as needed */
+    position: relative;
+  }
+  .slider-inner {
+    display: flex;
+    transition: transform 0.5s ease;
+  }
+  .slide {
+    flex: 0 0 100%;
+    max-width: 100%;
+    height: 100%;
+  }
+  .slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
     </style>
   </head>
 
@@ -161,14 +183,144 @@
     </header>
     <!-- Header ends -->
     <main>
-      <div class="container">
+      
         <!-- about section starts -->
         <section id="about">
-          <h1 class="dark-text text-center mt-5 heading" data-aos="zoom-in-up">
-            About Us
-          </h1>
-          <div class="row my-4">
-            <div class="col-md-6 my-4">
+          <style>
+            /* body {
+              font-family: Arial, sans-serif;
+              background-color: #f4f4f4;
+              margin: 50px;
+              padding: 20 20px;
+            } */
+            .small_container{
+              display: flex;
+              padding-left: 5%;
+              gap: 70px;
+              /* gap: 90px; */
+              
+            }
+          
+            .about-content {
+              flex: 1;
+              padding: 20 50px;
+            }
+          
+            .about-heading {
+              margin-top: 30px;
+              color: navy;
+              font-size: 24px;
+              margin-bottom: 40px;
+            }
+          
+            .about-text {
+              font-size: 16px;
+              line-height: 1.6;
+            }
+          
+            .image-slider {
+              flex: 1;
+              max-width: 50%;
+              margin-left: 10px;
+              margin-top: 80px;
+            }
+          
+            .slider {
+              overflow: hidden;
+              width: 80%;
+              height: 500px; /* Adjust height as needed */
+              position: relative;
+              
+             
+            }
+          
+            .slider-inner {
+              display: flex;
+              transition: transform 0.5s ease;
+            }
+          
+            .slide {
+              flex: 0 0 100%;
+              max-width: 100%;
+              height: 100%;
+              
+            }
+          
+            .slide img {
+              width: 100%;
+              height: 100%;
+              object-fit: cover;
+              margin-top:40px; 
+            }
+          </style>
+         
+          
+          <!-- <h1 class="dark-text text-center mt-5 heading"  data-aos="zoom-in-up"> -->
+            <!-- <h1 align="center" data-aos="zoom-in-up" data-aos-offset="300"> -->
+              <!-- <h1 class="heading">
+              About Us -->
+            <!-- </h1> -->
+            <!-- <h1><style type='text/css'>
+              body{
+               color:rgba(29, 3, 77, 0.185);
+               }
+              </style><h1> -->
+          
+          <!-- <style>
+             .heading{
+              align-content: center;
+            } 
+            .small_container {
+              width: 100%;
+              margin-top: 60px;
+              margin-left: 20px;
+              margin-right: 20px;
+              display: flex;
+            }
+            .slider {
+              overflow: hidden;
+              width: 1%; 
+              height: auto; 
+              position: relative; -->
+              <!-- /* margin-top: 100px;
+               */
+               margin: 100px auto;
+              flex: -2;
+              
+              
+              /* margin-right: 100px; */
+             } -->
+            <!-- .slider-inner 
+              /* display: flex; */
+              transition: transform 0.5s;
+              
+            }
+            .slide {
+              flex: 0 0 100%;
+              max-width: 100%; -->
+              <!-- height: 80%;
+              /* padding-inline-start: 25%; */
+              
+            }
+            .slide img {
+              /* flex-shrink: 2; */
+              width: 60%;
+              height: 70%;
+              object-fit: cover;
+              justify-content: first baseline;
+              
+            } -->
+            <!-- .col-md-6 my-4{
+             /* width: 70%; */ 
+             margin-top: 80px;
+             /* flex width:60%; */
+             /* margin-right: 20px; */
+             /* margin-inline-start: auto; */
+             /* float: right; */
+            } -->
+          <!-- </style> -->
+          <!-- <div class="row my-4"> -->
+            <!-- <div class="col-md-6 my-4">
               <img
                 src="images/abt.png"
                 class="img-fluid rounded"
@@ -176,31 +328,102 @@
                 data-aos-offset="300"
                 alt=""
               />
-            </div>
-            <div
+            </div> -->
+            <!-- <div class="small_container">
+             
+            <div class="slider">
+             
+  <div class="slider-inner">
+    <div class="slide"><img src="images/Abtimg1.jpeg" alt="Image 1">
+      <div class="numbertext">1 / 5</div>
+    </div>
+    <div class="slide"><img src="images/Abtimg2.jpeg" alt="Image 2">
+      <div class="numbertext">2 / 5</div>
+    </div>
+    <div class="slide"><img src="images/Abtimg3.jpeg" alt="Image 3">
+      <div class="numbertext">3 / 5</div>
+    </div>
+    <div class="slide"><img src="images/Abtimg4.jpeg" alt="Image 4">
+      <div class="numbertext">4 / 5</div>
+    </div>
+    <div class="slide"><img src="images/Abtimg5.jpeg" alt="Image 5">
+      <div class="numbertext">5 / 5</div>
+    </div>
+  </div>
+            </div> -->
+            
+            <!-- <div
               class="col-md-6 my-4"
               data-aos="fade-up-left"
-              data-aos-offset="300"
+              data-aos-offset="10"
             >
               <p class="text-muted text-justify">
-                Agresita, a new initiative and visionary techfest, celebrating
-                its second edition in SSIPMT Raipur, an uprising fest of central
-                India. Following the success of Agresita 2023 we'll be heading
-                towards the adroit, amazing and astounding techfest of 2023. It
-                is a herd of creative minds, innovative ideas and energetic
-                souls which come together and battle it out in varied fields.
-                More events than before, better prizes than before, and whole
-                faces than before, and ultimately this 2nd edition package of
-                Agresita will be better and harder. Apart from creating
-                countless memories and experience that agresita guarantee you'll
-                be flamboyant and elevated in the jovial and merry aura of
-                musical night. Welcoming this season With high passion,
-                phenomenal desire, more spectacular and wondrous than ever, all
-                set to mark a permanent place in the scrapbook of the beautiful
-                journey that life is.
+                Welcome to <b>Agresita</b>, where innovation meets celebration!
+
+We believe in fostering creativity, nurturing talent, and celebrating diversity. Our annual college fest is a vibrant culmination of these principles, bringing together students from across disciplines and backgrounds to showcase their skills, passions, and unique perspectives.
+
+Established with the aim of creating a platform for students to explore their interests beyond the confines of academics, Agresita is a melting pot of creativity, culture, and community spirit. From exhilarating competitions to captivating performances, our fest offers something for everyone.
+
+Driven by the enthusiasm and energy of the SSIPMT's Cultural Committee, Agresita is not just an event but an experience. It’s a celebration of the countless hours of hard work, dedication, and collaboration that our students put in to make this event a grand success.
+
+As we embark on another exciting edition we invite you to join us in celebrating talent, embracing diversity, and making memories that will last a lifetime. Welcome to <b>Agresita— where every moment is an opportunity to shine!</b>
               </p>
             </div>
+          </div> -->
+          <div class="small_container">
+          <div class="about-content" data-aos="fade-up-left">
+            <h2 class="about-heading" data-aos="zoom-in-up">About Us</h2>
+            <p class="about-text"> Welcome to <b>Agresita</b>, where innovation meets celebration!
+
+              We believe in fostering creativity, nurturing talent, and celebrating diversity. Our annual college fest is a vibrant culmination of these principles, bringing together students from across disciplines and backgrounds to showcase their skills, passions, and unique perspectives.
+              
+              Established with the aim of creating a platform for students to explore their interests beyond the confines of academics, Agresita is a melting pot of creativity, culture, and community spirit. From exhilarating competitions to captivating performances, our fest offers something for everyone.
+              
+              Driven by the enthusiasm and energy of the SSIPMT's Cultural Committee, Agresita is not just an event but an experience. It’s a celebration of the countless hours of hard work, dedication, and collaboration that our students put in to make this event a grand success.
+              
+              As we embark on another exciting edition we invite you to join us in celebrating talent, embracing diversity, and making memories that will last a lifetime. Welcome to <b>Agresita— where every moment is an opportunity to shine!</b></p>
           </div>
+          
+          <div class="image-slider">
+            <div class="slider">
+              <div class="slider-inner">
+                <div class="slide"><img src="images/Abtimg1.jpeg" alt="Image 1">
+                  <div class="numbertext">1 / 5</div>
+                </div>
+                <div class="slide"><img src="images/Abtimg2.jpeg" alt="Image 2">
+                  <div class="numbertext">2 / 5</div>
+                </div>
+                <div class="slide"><img src="images/Abtimg3.jpeg" alt="Image 3">
+                  <div class="numbertext">3 / 5</div>
+                </div>
+                <div class="slide"><img src="images/Abtimg4.jpeg" alt="Image 4">
+                  <div class="numbertext">4 / 5</div>
+                </div>
+                <div class="slide"><img src="images/Abtimg5.jpeg" alt="Image 5">
+                  <div class="numbertext">5 / 5</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          </div>
+          <script>
+            // Auto slide functionality
+            let currentIndex = 0;
+            const slides = document.querySelectorAll('.slide');
+            const totalSlides = slides.length;
+          
+            function nextSlide() {
+              currentIndex = (currentIndex + 1) % totalSlides;
+              updateSlider();
+            }
+          
+            function updateSlider() {
+              const offset = -currentIndex * 100;
+              document.querySelector('.slider-inner').style.transform = `translateX(${offset}%)`;
+            }
+          
+            setInterval(nextSlide, 3000); // Change slide every 3 seconds
+          </script>
         </section>
 
         <section>
