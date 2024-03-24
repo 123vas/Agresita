@@ -567,12 +567,12 @@ button:focus {
     transform-origin: 50% -1400px;
     opacity: 1;
   }
-  .center-align {
+  /* .center-align {
     display: flex;
     justify-content: center; /* Center horizontally */
-    align-items: center; /* Center vertically */
-    height: 100vh; /* Full height of the viewport */
-  }
+    /* align-items: center; Center vertically
+    height: 100vh; Full height of the viewport */
+  /* } */ 
   .embed-responsive-16by9 {
     position: relative;
     width: 400px; /* Fixed width */
