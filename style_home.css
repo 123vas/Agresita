@@ -567,4 +567,33 @@ button:focus {
     transform-origin: 50% -1400px;
     opacity: 1;
   }
+  .center-align {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 100vh; /* Full height of the viewport */
+  }
+  .embed-responsive-16by9 {
+    position: relative;
+    width: 400px; /* Fixed width */
+    height: 300px; /* Fixed height */
+    margin: auto; /* Helps in centering if flex properties don't fully apply */
+    border-radius: 30px; /* Corrected style for border-radius */
+    overflow: hidden; /* Ensures the border-radius applies to children */
+  }
+  .embed-responsive-item {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+  }
+  
+  .container {
+    text-align: center; /* Centers text horizontally */
+    margin-top: -50px;
+    margin-bottom: 20px;
+    color:#191654;
+  }
 }

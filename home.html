@@ -1,272 +1,257 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
-    <meta http-equiv="x-ua-compatible" content="ie=edge" />
-    <title>AGRESITA</title>
-    <!-- favicon -->
-    <link
-      rel="icon"
-      href="images/logo_agresita.png"
-      type="image/gif"
-      sizes="16x16"
-    />
-    <!-- animate.css -->
-    <link
-      href="https://fonts.googleapis.com/css?family=Spartan&display=swap"
-      rel="stylesheet"
-    />
 
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css"
-    />
-    <!-- Font Awesome -->
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.11.2/css/all.css"
-    />
-    <!-- font google -->
-    <link
-      href="https://fonts.googleapis.com/css?family=Montserrat&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css?family=Trade+Winds&display=swap"
-      rel="stylesheet"
-    />
-    <link href="style_home.css" rel="stylesheet" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
-      crossorigin="anonymous"
-    />
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
-    <link rel="stylesheet" href="owl.carousel.min.css" />
-    <link rel="stylesheet" href="owl.theme.default.min.css" />
-    <!--<link rel="stylesheet" href="compact-gallery.css" />-->
-    <link rel="stylesheet" href="hamburger.css" />
-    <style>
-        body, html {
-            scroll-behavior: smooth;
-            overflow-x: hidden !important;
-        }
-        .middle h1 {
-          font-size: 3rem;
-          font-weight: bold;
-          text-shadow: 0 0 15px #add8e6;
-        }
-        .heading {
-          font-weight: 600 !important;
-          color: #333;  /* fallback for old browsers */
-          background: #43C6AC;  /* fallback for old browsers */
-          background: -webkit-linear-gradient(to bottom, #191654, #43C6AC);  /* Chrome 10-25, Safari 5.1-6 */
-          background: linear-gradient(to bottom, #191654, #43C6AC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-          /* -webkit-background-clip: text; */
-          -webkit-text-fill-color: transparent;
-          
-        }
-        
-        .bgapna{
-            background: #43cea2;  /* fallback for old browsers */
-            background: -webkit-linear-gradient(to right, #185a9d, #43cea2);  /* Chrome 10-25, Safari 5.1-6 */
-            background: linear-gradient(to right, #185a9d, #43cea2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-            color:white;
-            padding: 6px;
-        }
-    
-  .slider {
-    overflow: hidden;
-    width: 100%;
-    height: 300px; /* Adjust height as needed */
-    position: relative;
-  }
-  .slider-inner {
-    display: flex;
-    transition: transform 0.5s ease;
-  }
-  .slide {
-    flex: 0 0 100%;
-    max-width: 100%;
-    height: 100%;
-  }
-  .slide img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge" />
+  <title>AGRESITA</title>
+  <!-- favicon -->
+  <link rel="icon" href="images/logo_agresita.png" type="image/gif" sizes="16x16" />
+  <!-- animate.css -->
+  <link href="https://fonts.googleapis.com/css?family=Spartan&display=swap" rel="stylesheet" />
 
-    </style>
-  </head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css" />
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" />
+  <!-- font google -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css?family=Trade+Winds&display=swap" rel="stylesheet" />
+  <link href="style_home.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.css" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  <link rel="stylesheet" href="owl.carousel.min.css" />
+  <link rel="stylesheet" href="owl.theme.default.min.css" />
+  <!--<link rel="stylesheet" href="compact-gallery.css" />-->
+  <link rel="stylesheet" href="hamburger.css" />
+  <style>
+    body,
+    html {
+      scroll-behavior: smooth;
+      overflow-x: hidden !important;
+    }
 
-  <body data-spy="scroll" data-target=".navbar" data-offset="250">
-    <!-- Header -->
+    .middle h1 {
+      font-size: 3rem;
+      font-weight: bold;
+      text-shadow: 0 0 15px #add8e6;
+    }
 
-    <header>
-      <nav
-        class="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar"
-        id="home"
-      >
-        <div class="container">
-          <!-- Brand -->
-          <a class="navbar-brand" href="home.html">
-            <img src="images/logo_agresita.png" width="45" height="45" alt="" />
-          </a>
+    .heading {
+      font-weight: 600 !important;
+      color: #333;
+      /* fallback for old browsers */
+      background: #43C6AC;
+      /* fallback for old browsers */
+      background: -webkit-linear-gradient(to bottom, #191654, #43C6AC);
+      /* Chrome 10-25, Safari 5.1-6 */
+      background: linear-gradient(to bottom, #191654, #43C6AC);
+      /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+      /* -webkit-background-clip: text; */
+      -webkit-text-fill-color: transparent;
 
-          <!-- Collapse button -->
-          <button
-            class="navbar-toggler second-button"
-            type="button"
-            data-toggle="collapse"
-            data-target="#navbarSupportedContent23"
-            aria-controls="navbarSupportedContent23"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <div class="animated-icon2">
-              <span></span><span></span><span></span><span></span>
-            </div>
-          </button>
-          <!-- Links -->
-          <div class="collapse navbar-collapse" id="navbarSupportedContent23">
-            <!-- Left -->
-            <ul class="navbar-nav ml-auto text-center nav-pills">
-              <li class="nav-item">
-                <a class="nav-link" href="#home"
-                  ><font color=white><b>Home</b></font>
-                  <span class="sr-only">(current)</span>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#about"><font color=white><b>About Us</b></font></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#guests"><font color=white><b>Guests</b></font></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#evt"><font color=white><b>Events</b></font></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#gallery"><font color=white><b>Gallery</b></font></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#sponsors"><font color=white><b>Sponsors</b></font></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#team"><font color=white><b>Our Team</b></font></a>
-              </li>
-            </ul>
+    }
+
+    .bgapna {
+      background: #43cea2;
+      /* fallback for old browsers */
+      background: -webkit-linear-gradient(to right, #185a9d, #43cea2);
+      /* Chrome 10-25, Safari 5.1-6 */
+      background: linear-gradient(to right, #185a9d, #43cea2);
+      /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+      color: white;
+      padding: 6px;
+    }
+
+    .slider {
+      overflow: hidden;
+      width: 100%;
+      height: 300px;
+      /* Adjust height as needed */
+      position: relative;
+    }
+
+    .slider-inner {
+      display: flex;
+      transition: transform 0.5s ease;
+    }
+
+    .slide {
+      flex: 0 0 100%;
+      max-width: 100%;
+      height: 100%;
+    }
+
+    .slide img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  </style>
+</head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="250">
+  <!-- Header -->
+
+  <header>
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar" id="home">
+      <div class="container">
+        <!-- Brand -->
+        <a class="navbar-brand" href="home.html">
+          <img src="images/logo_agresita.png" width="45" height="45" alt="" />
+        </a>
+
+        <!-- Collapse button -->
+        <button class="navbar-toggler second-button" type="button" data-toggle="collapse"
+          data-target="#navbarSupportedContent23" aria-controls="navbarSupportedContent23" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <div class="animated-icon2">
+            <span></span><span></span><span></span><span></span>
           </div>
+        </button>
+        <!-- Links -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent23">
+          <!-- Left -->
+          <ul class="navbar-nav ml-auto text-center nav-pills">
+            <li class="nav-item">
+              <a class="nav-link" href="#home">
+                <font color=white><b>Home</b></font>
+                <span class="sr-only">(current)</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">
+                <font color=white><b>About Us</b></font>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#guests">
+                <font color=white><b>Guests</b></font>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#evt">
+                <font color=white><b>Events</b></font>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#gallery">
+                <font color=white><b>Gallery</b></font>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#sponsors">
+                <font color=white><b>Sponsors</b></font>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#team">
+                <font color=white><b>Our Team</b></font>
+              </a>
+            </li>
+          </ul>
         </div>
-      </nav>
-      <section class="banner img-fluid ">
-        <div class="middle text-white font-weight-bold">
-          <h1 class="text-white animated zoomIn slow" style="font-size:5rem">
-            AGRESITA 2023
-          </h1>
-          <hr />
-          <p
-            class="animated delay-1s bgapna rounded-pill fadeIn slower"
-            style="font-size:30px;"
-          >Scroll Down</p>
-        </div>
-      </section>
-    </header>
-    <!-- Header ends -->
-    <main>
-      
-        <!-- about section starts -->
-        <section id="about">
-          <style>
-            /* body {
+      </div>
+    </nav>
+    <section class="banner img-fluid ">
+      <div class="middle text-white font-weight-bold">
+        <h1 class="text-white animated zoomIn slow" style="font-size:5rem">
+          AGRESITA 2023
+        </h1>
+        <hr />
+        <p class="animated delay-1s bgapna rounded-pill fadeIn slower" style="font-size:30px;">Scroll Down</p>
+      </div>
+    </section>
+  </header>
+  <!-- Header ends -->
+  <main>
+
+    <!-- about section starts -->
+    <section id="about">
+      <style>
+        /* body {
               font-family: Arial, sans-serif;
               background-color: #f4f4f4;
               margin: 50px;
               padding: 20 20px;
             } */
-            .small_container{
-              display: flex;
-              padding-left: 5%;
-              gap: 70px;
-              /* gap: 90px; */
-              
-            }
-          
-            .about-content {
-              flex: 1;
-              padding: 20 50px;
-            }
-          
-            .about-heading {
-              margin-top: 30px;
-              color: navy;
-              font-size: 24px;
-              margin-bottom: 40px;
-            }
-          
-            .about-text {
-              font-size: 16px;
-              line-height: 1.6;
-            }
-          
-            .image-slider {
-              flex: 1;
-              max-width: 50%;
-              margin-left: 10px;
-              margin-top: 80px;
-            }
-          
-            .slider {
-              overflow: hidden;
-              width: 80%;
-              height: 500px; /* Adjust height as needed */
-              position: relative;
-              
-             
-            }
-          
-            .slider-inner {
-              display: flex;
-              transition: transform 0.5s ease;
-            }
-          
-            .slide {
-              flex: 0 0 100%;
-              max-width: 100%;
-              height: 100%;
-              
-            }
-          
-            .slide img {
-              width: 100%;
-              height: 100%;
-              object-fit: cover;
-              margin-top:40px; 
-            }
-          </style>
-         
-          
-          <!-- <h1 class="dark-text text-center mt-5 heading"  data-aos="zoom-in-up"> -->
-            <!-- <h1 align="center" data-aos="zoom-in-up" data-aos-offset="300"> -->
-              <!-- <h1 class="heading">
+        .small_container {
+          display: flex;
+          padding-left: 5%;
+          gap: 70px;
+          /* gap: 90px; */
+
+        }
+
+        .about-content {
+          flex: 1;
+          padding: 20 50px;
+        }
+
+        .about-heading {
+          margin-top: 30px;
+          color: navy;
+          font-size: 24px;
+          margin-bottom: 40px;
+        }
+
+        .about-text {
+          font-size: 16px;
+          line-height: 1.6;
+        }
+
+        .image-slider {
+          flex: 1;
+          max-width: 50%;
+          margin-left: 10px;
+          margin-top: 80px;
+        }
+
+        .slider {
+          overflow: hidden;
+          width: 80%;
+          height: 500px;
+          /* Adjust height as needed */
+          position: relative;
+
+
+        }
+
+        .slider-inner {
+          display: flex;
+          transition: transform 0.5s ease;
+        }
+
+        .slide {
+          flex: 0 0 100%;
+          max-width: 100%;
+          height: 100%;
+
+        }
+
+        .slide img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+          margin-top: 40px;
+        }
+      </style>
+
+
+      <!-- <h1 class="dark-text text-center mt-5 heading"  data-aos="zoom-in-up"> -->
+      <!-- <h1 align="center" data-aos="zoom-in-up" data-aos-offset="300"> -->
+      <!-- <h1 class="heading">
               About Us -->
-            <!-- </h1> -->
-            <!-- <h1><style type='text/css'>
+      <!-- </h1> -->
+      <!-- <h1><style type='text/css'>
               body{
                color:rgba(29, 3, 77, 0.185);
                }
               </style><h1> -->
-          
-          <!-- <style>
+
+      <!-- <style>
              .heading{
               align-content: center;
             } 
@@ -282,7 +267,7 @@
               width: 1%; 
               height: auto; 
               position: relative; -->
-              <!-- /* margin-top: 100px;
+      <!-- /* margin-top: 100px;
                */
                margin: 100px auto;
               flex: -2;
@@ -290,7 +275,7 @@
               
               /* margin-right: 100px; */
              } -->
-            <!-- .slider-inner 
+      <!-- .slider-inner 
               /* display: flex; */
               transition: transform 0.5s;
               
@@ -298,7 +283,7 @@
             .slide {
               flex: 0 0 100%;
               max-width: 100%; -->
-              <!-- height: 80%;
+      <!-- height: 80%;
               /* padding-inline-start: 25%; */
               
             }
@@ -310,7 +295,7 @@
               justify-content: first baseline;
               
             } -->
-            <!-- .col-md-6 my-4{
+      <!-- .col-md-6 my-4{
              /* width: 70%; */ 
              margin-top: 80px;
              /* flex width:60%; */
@@ -318,9 +303,9 @@
              /* margin-inline-start: auto; */
              /* float: right; */
             } -->
-          <!-- </style> -->
-          <!-- <div class="row my-4"> -->
-            <!-- <div class="col-md-6 my-4">
+      <!-- </style> -->
+      <!-- <div class="row my-4"> -->
+      <!-- <div class="col-md-6 my-4">
               <img
                 src="images/abt.png"
                 class="img-fluid rounded"
@@ -329,7 +314,7 @@
                 alt=""
               />
             </div> -->
-            <!-- <div class="small_container">
+      <!-- <div class="small_container">
              
             <div class="slider">
              
@@ -351,8 +336,8 @@
     </div>
   </div>
             </div> -->
-            
-            <!-- <div
+
+      <!-- <div
               class="col-md-6 my-4"
               data-aos="fade-up-left"
               data-aos-offset="10"
@@ -370,271 +355,224 @@ As we embark on another exciting edition we invite you to join us in celebrating
               </p>
             </div>
           </div> -->
-          <div class="small_container">
-          <div class="about-content" data-aos="fade-up-left">
-            <h2 class="about-heading" data-aos="zoom-in-up">About Us</h2>
-            <p class="about-text"> Welcome to <b>Agresita</b>, where innovation meets celebration!
+      <div class="small_container">
+        <div class="about-content" data-aos="fade-up-left">
+          <h2 class="about-heading" data-aos="zoom-in-up">About Us</h2>
+          <p class="about-text"> Welcome to <b>Agresita</b>, where innovation meets celebration!
 
-              We believe in fostering creativity, nurturing talent, and celebrating diversity. Our annual college fest is a vibrant culmination of these principles, bringing together students from across disciplines and backgrounds to showcase their skills, passions, and unique perspectives.
-              
-              Established with the aim of creating a platform for students to explore their interests beyond the confines of academics, Agresita is a melting pot of creativity, culture, and community spirit. From exhilarating competitions to captivating performances, our fest offers something for everyone.
-              
-              Driven by the enthusiasm and energy of the SSIPMT's Cultural Committee, Agresita is not just an event but an experience. It’s a celebration of the countless hours of hard work, dedication, and collaboration that our students put in to make this event a grand success.
-              
-              As we embark on another exciting edition we invite you to join us in celebrating talent, embracing diversity, and making memories that will last a lifetime. Welcome to <b>Agresita— where every moment is an opportunity to shine!</b></p>
-          </div>
-          
-          <div class="image-slider">
-            <div class="slider">
-              <div class="slider-inner">
-                <div class="slide"><img src="images/Abtimg1.jpeg" alt="Image 1">
-                  <div class="numbertext">1 / 5</div>
-                </div>
-                <div class="slide"><img src="images/Abtimg2.jpeg" alt="Image 2">
-                  <div class="numbertext">2 / 5</div>
-                </div>
-                <div class="slide"><img src="images/Abtimg3.jpeg" alt="Image 3">
-                  <div class="numbertext">3 / 5</div>
-                </div>
-                <div class="slide"><img src="images/Abtimg4.jpeg" alt="Image 4">
-                  <div class="numbertext">4 / 5</div>
-                </div>
-                <div class="slide"><img src="images/Abtimg5.jpeg" alt="Image 5">
-                  <div class="numbertext">5 / 5</div>
-                </div>
-              </div>
-            </div>
-          </div>
-          </div>
-          <script>
-            // Auto slide functionality
-            let currentIndex = 0;
-            const slides = document.querySelectorAll('.slide');
-            const totalSlides = slides.length;
-          
-            function nextSlide() {
-              currentIndex = (currentIndex + 1) % totalSlides;
-              updateSlider();
-            }
-          
-            function updateSlider() {
-              const offset = -currentIndex * 100;
-              document.querySelector('.slider-inner').style.transform = `translateX(${offset}%)`;
-            }
-          
-            setInterval(nextSlide, 3000); // Change slide every 3 seconds
-          </script>
-        </section>
+            We believe in fostering creativity, nurturing talent, and celebrating diversity. Our annual college fest is
+            a vibrant culmination of these principles, bringing together students from across disciplines and
+            backgrounds to showcase their skills, passions, and unique perspectives.
 
-        <section>
-          <!--Grid row-->
-          <div class="row">
-            <!--Grid column-->
-            <div class="col-lg-6 ">
-              <img
-                src="images/cal.gif"
-                class="img-fluid"
-                style="height: 150px; width: 150px;"
-                alt=""
-                data-aos="fade-right"
-                data-aos-offset="200"
-              />
-              <p>
-                <span
-                  class="font-weight-bold text-primary "
-                  style="font-size: 2.5rem;"
-                  data-aos="fade-right"
-                  data-aos-offset="200"
-                  >Save The Date</span
-                >
-              </p>
-              <p class="text-muted text-justify" data-aos="fade-right">
-                SSIPMT Raipur is going to continue its ritual of bringing famous
-                celebrity in the city . The starry night on 11th March 2023 will
-                be dazzled with Yaseer Desai 's live performance . So put on your
-                seatbelt bcoz your going to experince whirlwind of emotions and
-                excitement.
-              </p>
-            </div>
-            <!--/Grid column-->
+            Established with the aim of creating a platform for students to explore their interests beyond the confines
+            of academics, Agresita is a melting pot of creativity, culture, and community spirit. From exhilarating
+            competitions to captivating performances, our fest offers something for everyone.
 
-            <!--Grid column-->
-            <div
-              class="col-lg-6 col-md-12"
-              data-aos="fade-left"
-              data-aos-offset="200"
-            >
-              <p class="h5 text-center mb-4">
-                About Agresita
-              </p>
-              <div class="embed-responsive embed-responsive-16by9">
-                <iframe
-                  class="embed-responsive-item rounded"
-                  width="560"
-                  height="315"
-                  src="https://www.youtube.com/embed/ohWahUdbec8"
-                  frameborder="0"
-                  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                  allowfullscreen
-                ></iframe>
+            Driven by the enthusiasm and energy of the SSIPMT's Cultural Committee, Agresita is not just an event but an
+            experience. It’s a celebration of the countless hours of hard work, dedication, and collaboration that our
+            students put in to make this event a grand success.
+
+            As we embark on another exciting edition we invite you to join us in celebrating talent, embracing
+            diversity, and making memories that will last a lifetime. Welcome to <b>Agresita— where every moment is an
+              opportunity to shine!</b></p>
+        </div>
+
+        <div class="image-slider">
+          <div class="slider">
+            <div class="slider-inner">
+              <div class="slide"><img src="images/Abtimg1.jpeg" alt="Image 1">
+                <div class="numbertext">1 / 5</div>
               </div>
-            </div>
-            <!--/Grid column-->
-          </div>
-          <!--/Grid row-->
-        </section>
-        <!-- about section ends -->
-        <hr class="my-5" />
-        <!-- guests section starts -->
-        <section id="guests">
-          <h1
-            class="text-center my-4 heading"
-            data-aos="zoom-in-up"
-            data-aos-duration="4000"
-            data-aos-offset="150"
-          >
-            Guests at SSIPMT
-          </h1>
-          <!--Carousel Wrapper-->
-          <div class="container">
-            <div
-              class="owl-carousel owl-theme"
-              id="car"
-              data-aos="fade-up"
-              data-aos-duration="4000"
-              data-aos-offset="150"
-            >
-            <div class="item">
-              <div class="card mb-2">
-                <img
-                  class="card-img-top"
-                  src="images/guests/7.jpeg"
-                  alt="Card image cap"
-                />
-                <div class="card-body">
-                  <h4 class="card-title">Yaseer Desai</h4>
-                  <p class="card-text">
-                    Bollywood Singer
-                  </p>
-                </div>
+              <div class="slide"><img src="images/Abtimg2.jpeg" alt="Image 2">
+                <div class="numbertext">2 / 5</div>
               </div>
-            </div>
-            <div class="item">
-              <div class="card mb-2">
-                <img
-                  class="card-img-top"
-                  src="images/guests/8.jpeg"
-                  alt="Card image cap"
-                />
-                <div class="card-body">
-                  <h4 class="card-title">Yohani</h4>
-                  <p class="card-text">
-                    Bollywood Singer
-                  </p>
-                </div>
+              <div class="slide"><img src="images/Abtimg3.jpeg" alt="Image 3">
+                <div class="numbertext">3 / 5</div>
               </div>
-            </div>
-              <div class="item">
-                <div class="card mb-2">
-                  <img
-                    class="card-img-top"
-                    src="images/guests/1.jpg"
-                    alt="Card image cap"
-                  />
-                  <div class="card-body">
-                    <h4 class="card-title">Krishnakumar Kunnath</h4>
-                    <p class="card-text">
-                      Bollywood Singer
-                    </p>
-                  </div>
-                </div>
+              <div class="slide"><img src="images/Abtimg4.jpeg" alt="Image 4">
+                <div class="numbertext">4 / 5</div>
               </div>
-              <div class="item">
-                <div class="card mb-2">
-                  <img
-                    class="card-img-top"
-                    src="images/guests/2.jpg"
-                    alt="Card image cap"
-                  />
-                  <div class="card-body">
-                    <h4 class="card-title">Ayushmann Khurrana</h4>
-                    <p class="card-text">
-                      Bollywood Actor and Singer
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="item">
-                <div class="card mb-2">
-                  <img
-                    class="card-img-top"
-                    src="images/guests/6.jpg"
-                    alt="Card image cap"
-                  />
-                  <div class="card-body">
-                    <h4 class="card-title">Ankit Tiwari</h4>
-                    <p class="card-text">
-                      Bollywood Singer
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="item">
-                <div class="card mb-2">
-                  <img
-                    class="card-img-top"
-                    src="images/guests/4.jpg"
-                    alt="Card image cap"
-                  />
-                  <div class="card-body">
-                    <h4 class="card-title">Guru Randhawa</h4>
-                    <p class="card-text">
-                      Bollywood Singer
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="item">
-                <div class="card mb-2">
-                  <img
-                    class="card-img-top"
-                    src="images/guests/3.jpg"
-                    alt="Card image cap"
-                  />
-                  <div class="card-body">
-                    <h4 class="card-title">Lost Stories</h4>
-                    <p class="card-text">
-                      EDM
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="item">
-                <div class="card mb-2">
-                  <img
-                    class="card-img-top"
-                    src="images/guests/5.jpg"
-                    alt="Card image cap"
-                  />
-                  <div class="card-body">
-                    <h4 class="card-title">Jwala Gutta</h4>
-                    <p class="card-text">
-                      Badminton Player
-                    </p>
-                  </div>
-                </div>
+              <div class="slide"><img src="images/Abtimg5.jpeg" alt="Image 5">
+                <div class="numbertext">5 / 5</div>
               </div>
             </div>
           </div>
-          <!--/.Carousel Wrapper-->
-        </section>
-        <!-- guests section ends -->      
-        <hr class="my-5" />
-        <!-- gallery section starts -->
-        <section class="gallery-block compact-gallery" id="gallery">
-          <div class="container ">
-            <div class>
-              <h1 class="text-center heading" data-aos="fade-up">
+        </div>
+      </div>
+      <script>
+        // Auto slide functionality
+        let currentIndex = 0;
+        const slides = document.querySelectorAll('.slide');
+        const totalSlides = slides.length;
+
+        function nextSlide() {
+          currentIndex = (currentIndex + 1) % totalSlides;
+          updateSlider();
+        }
+
+        function updateSlider() {
+          const offset = -currentIndex * 100;
+          document.querySelector('.slider-inner').style.transform = `translateX(${offset}%)`;
+        }
+
+        setInterval(nextSlide, 3000); // Change slide every 3 seconds
+      </script>
+    </section>
+
+    <section>
+      <!--Grid row-->
+      <div class="row">
+        <!--Grid column-->
+        <div class="col-lg-6 ">
+          <img src="images/cal.gif" class="img-fluid" style="height: 150px; width: 150px;" alt="" data-aos="fade-right"
+            data-aos-offset="200" />
+          <p>
+            <span class="font-weight-bold text-primary " style="font-size: 2.5rem;" data-aos="fade-right"
+              data-aos-offset="200">Save The Date</span>
+          </p>
+          <p class="text-muted text-justify" data-aos="fade-right">
+            SSIPMT Raipur is going to continue its ritual of bringing famous
+            celebrity in the city . The starry night on 11th March 2023 will
+            be dazzled with Yaseer Desai 's live performance . So put on your
+            seatbelt bcoz your going to experince whirlwind of emotions and
+            excitement.
+          </p>
+        </div>
+        <!--/Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-6 col-md-12" data-aos="fade-left" data-aos-offset="200">
+          <p class="h5 text-center mb-4">
+            About Agresita
+          </p>
+          <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item rounded" width="560" height="315"
+              src="https://www.youtube.com/embed/ohWahUdbec8" frameborder="0"
+              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+        </div>
+        <!--/Grid column-->
+      </div>
+      <!--/Grid row-->
+    </section>
+    <!-- about section ends -->
+    <hr class="my-5" />
+    <!-- guests section starts -->
+    <section id="guests">
+      <h1 class="text-center my-4 heading" data-aos="zoom-in-up" data-aos-duration="4000" data-aos-offset="150">
+        Guests at SSIPMT
+      </h1>
+      <!--Carousel Wrapper-->
+      <div class="container">
+        <div class="owl-carousel owl-theme" id="car" data-aos="fade-up" data-aos-duration="4000" data-aos-offset="150">
+          <div class="item">
+            <div class="card mb-2">
+              <img class="card-img-top" src="images/guests/7.jpeg" alt="Card image cap" />
+              <div class="card-body">
+                <h4 class="card-title">Yaseer Desai</h4>
+                <p class="card-text">
+                  Bollywood Singer
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="card mb-2">
+              <img class="card-img-top" src="images/guests/8.jpeg" alt="Card image cap" />
+              <div class="card-body">
+                <h4 class="card-title">Yohani</h4>
+                <p class="card-text">
+                  Bollywood Singer
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="card mb-2">
+              <img class="card-img-top" src="images/guests/1.jpg" alt="Card image cap" />
+              <div class="card-body">
+                <h4 class="card-title">Krishnakumar Kunnath</h4>
+                <p class="card-text">
+                  Bollywood Singer
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="card mb-2">
+              <img class="card-img-top" src="images/guests/2.jpg" alt="Card image cap" />
+              <div class="card-body">
+                <h4 class="card-title">Ayushmann Khurrana</h4>
+                <p class="card-text">
+                  Bollywood Actor and Singer
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="card mb-2">
+              <img class="card-img-top" src="images/guests/6.jpg" alt="Card image cap" />
+              <div class="card-body">
+                <h4 class="card-title">Ankit Tiwari</h4>
+                <p class="card-text">
+                  Bollywood Singer
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="card mb-2">
+              <img class="card-img-top" src="images/guests/4.jpg" alt="Card image cap" />
+              <div class="card-body">
+                <h4 class="card-title">Guru Randhawa</h4>
+                <p class="card-text">
+                  Bollywood Singer
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="card mb-2">
+              <img class="card-img-top" src="images/guests/3.jpg" alt="Card image cap" />
+              <div class="card-body">
+                <h4 class="card-title">Lost Stories</h4>
+                <p class="card-text">
+                  EDM
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="card mb-2">
+              <img class="card-img-top" src="images/guests/5.jpg" alt="Card image cap" />
+              <div class="card-body">
+                <h4 class="card-title">Jwala Gutta</h4>
+                <p class="card-text">
+                  Badminton Player
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--/.Carousel Wrapper-->
+    </section>
+    <!-- guests section ends -->
+    <hr class="my-5" />
+    <!-- gallery section starts -->
+    <section class="gallery-block compact-gallery" id="gallery">
+      <div class="container">
+        <div class="head">
+          <h1 align="center"><strong>Agresita's Hall of Art</strong></h1>
+          <div class="center-align">
+            <div class="embed-responsive-16by9" align="center" style='border: radius 30px;'>
+              <iframe class="embed-responsive-item rounded" width="600" height="250"
+                src="https://www.youtube.com/embed/9kmV_XgHbH0" frameborder="0"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+            </div>
+            </div>
+            <!-- <h1 class="text-center heading" data-aos="fade-up">
               Agresita  Gallery
               </h1>
             </div>
@@ -645,182 +583,136 @@ As we embark on another exciting edition we invite you to join us in celebrating
                src="https://www.youtube.com/embed/9kmV_XgHbH0"
                 frameborder="0" 
                 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-              </div>
-			  <hr>
+              </div> -->
+            <hr>
             <div class="row no-gutters">
-              <div
-                class="col-md-6 col-lg-4 item zoom-on-hover"
-                data-aos="fade-down-right"
-                data-aos-offset="200"
-              >
+              <div class="col-md-6 col-lg-4 item zoom-on-hover" data-aos="fade-down-right" data-aos-offset="200">
                 <a class="lightbox" href="images/gallery/19.png">
                   <img class="img-fluid image " src="images/gallery/19.png" />
                 </a>
               </div>
-              <div
-                class="col-md-6 col-lg-4 item zoom-on-hover"
-                data-aos="fade-down"
-                data-aos-offset="200"
-              >
+              <div class="col-md-6 col-lg-4 item zoom-on-hover" data-aos="fade-down" data-aos-offset="200">
                 <a class="lightbox" href="images/gallery/8.png">
                   <img class="img-fluid image" src="images/gallery/8.png" />
                 </a>
               </div>
-              <div
-                class="col-md-6 col-lg-4 item zoom-on-hover"
-                data-aos="fade-down-left"
-                data-aos-offset="200"
-              >
-                <a class="lightbox" href="images/gallery/17.png">
-                  <img class="img-fluid image" src="images/gallery/17.png" />
+              <div class="col-md-6 col-lg-4 item zoom-on-hover" data-aos="fade-down-left" data-aos-offset="200">
+                <a class="lightbox" href="images/gallery/23.jpeg">
+                  <img class="img-fluid image" src="images/gallery/23.jpeg" />
                 </a>
               </div>
-              <div
-                class="col-md-6 col-lg-4 item zoom-on-hover"
-                data-aos="fade-right"
-                data-aos-offset="200"
-              >
-                <a class="lightbox" href="images/gallery/14.png">
-                  <img class="img-fluid image" src="images/gallery/14.png" />
+              <div class="col-md-6 col-lg-4 item zoom-on-hover" data-aos="fade-right" data-aos-offset="200">
+                <a class="lightbox" href="images/gallery/21.jpeg">
+                  <img class="img-fluid image" src="images/gallery/21.jpeg" />
                 </a>
               </div>
-              <div
-                class="col-md-6 col-lg-4 item zoom-on-hover"
-                data-aos="fade-up"
-                data-aos-offset="200"
-              >
+              <div class="col-md-6 col-lg-4 item zoom-on-hover" data-aos="fade-up" data-aos-offset="200">
                 <a class="lightbox" href="images/gallery/5.png">
                   <img class="img-fluid image" src="images/gallery/5.png" />
                 </a>
               </div>
-              <div
-                class="col-md-6 col-lg-4 item zoom-on-hover"
-                data-aos="fade-left"
-                data-aos-offset="200"
-              >
+              <div class="col-md-6 col-lg-4 item zoom-on-hover" data-aos="fade-left" data-aos-offset="200">
                 <a class="lightbox" href="images/gallery/3.png">
                   <img class="img-fluid image" src="images/gallery/3.png" />
                 </a>
               </div>
-              <div
-                class="col-md-6 col-lg-4 item zoom-on-hover"
-                data-aos="fade-up-right"
-                data-aos-offset="200"
-              >
-                <a class="lightbox" href="images/gallery/7.png">
-                  <img class="img-fluid image" src="images/gallery/7.png" />
+              <div class="col-md-6 col-lg-4 item zoom-on-hover" data-aos="fade-up-right" data-aos-offset="200">
+                <a class="lightbox" href="images/gallery/22.jpeg">
+                  <img class="img-fluid image" src="images/gallery/22.jpeg" />
                 </a>
               </div>
-              <div
-                class="col-md-6 col-lg-4 item zoom-on-hover"
-                data-aos="fade-up"
-                data-aos-offset="200"
-              >
-                <a class="lightbox" href="images/gallery/6.png">
-                  <img class="img-fluid image" src="images/gallery/6.png" />
+              <div class="col-md-6 col-lg-4 item zoom-on-hover" data-aos="fade-up" data-aos-offset="200">
+                <a class="lightbox" href="images/gallery/20.jpeg">
+                  <img class="img-fluid image" src="images/gallery/20.jpeg" />
                 </a>
               </div>
-              <div
-                class="col-md-6 col-lg-4 item zoom-on-hover"
-                data-aos="fade-up-left"
-                data-aos-offset="200"
-              >
+              <div class="col-md-6 col-lg-4 item zoom-on-hover" data-aos="fade-up-left" data-aos-offset="200">
                 <a class="lightbox" href="images/gallery/18.png">
                   <img class="img-fluid image" src="images/gallery/18.png" />
                 </a>
               </div>
             </div>
           </div>
-        </section>
-        <!-- gallery section ends -->
- <!--Event Start-->
-	<section id="Evtent" >
-    <h1
-    class="text-center"
-  >   Events
-  </h1>
-  <div class="card-2">
-  <div class="card-1">
-   <a href="https://www.mythrillfiction.com/force-mage" alt="Mythrill" target="_blank" >
-    <div class="card">
-      <div class="wrapper">
-        <img src="images/event-image/coding.jpg" class="cover-image" />
+    </section>
+    <!-- gallery section ends -->
+    <!--Event Start-->
+    <section id="Evtent">
+      <h1 class="text-center"> Events
+      </h1>
+      <div class="card-2">
+        <div class="card-1">
+          <a href="https://www.mythrillfiction.com/force-mage" alt="Mythrill" target="_blank">
+            <div class="card">
+              <div class="wrapper">
+                <img src="images/event-image/coding.jpg" class="cover-image" />
+              </div>
+              <img src="images/event-image/ctitle.png" class="title" />
+              <img src="images/event-image/coding 2.jpg" class="character" />
+            </div>
+          </a>
+
+        </div>
+        <div class="card-1">
+          <a href="https://www.mythrillfiction.com/force-mage" alt="Mythrill" target="_blank">
+            <div class="card">
+              <div class="wrapper">
+                <img src="images/event-image/idea3.jpeg" class="cover-image" />
+              </div>
+              <img src="images/event-image/idea2.png" class="character" />
+            </div>
+          </a>
+        </div>
+        <div class="card-1">
+          <a href="https://www.mythrillfiction.com/force-mage" alt="Mythrill" target="_blank">
+            <div class="card">
+              <div class="wrapper">
+                <img src="images/event-image/sfm.png" class="cover-image" />
+              </div>
+              <img src="images/event-image/sfm2.gif" class="character" />
+            </div>
+          </a>
+        </div>
+        <div class="card-1">
+          <a href="https://www.mythrillfiction.com/force-mage" alt="Mythrill" target="_blank">
+            <div class="card">
+              <div class="wrapper">
+                <img src="https://ggayane.github.io/css-experiments/cards/force_mage-cover.jpg" class="cover-image" />
+              </div>
+              <img src="https://ggayane.github.io/css-experiments/cards/force_mage-character.webp" class="character" />
+            </div>
+          </a>
+        </div>
+        <div class="card-1">
+          <a href="https://www.mythrillfiction.com/force-mage" alt="Mythrill" target="_blank">
+            <div class="card">
+              <div class="wrapper">
+                <img src="https://ggayane.github.io/css-experiments/cards/force_mage-cover.jpg" class="cover-image" />
+              </div>
+              <img src="https://ggayane.github.io/css-experiments/cards/force_mage-character.webp" class="character" />
+            </div>
+          </a>
+        </div>
+        <div class="card-1">
+          <a href="https://www.mythrillfiction.com/force-mage" alt="Mythrill" target="_blank">
+            <div class="card">
+              <div class="wrapper">
+                <img src="https://ggayane.github.io/css-experiments/cards/force_mage-cover.jpg" class="cover-image" />
+              </div>
+              <img src="https://ggayane.github.io/css-experiments/cards/force_mage-character.webp" class="character" />
+            </div>
+          </a>
+        </div>
       </div>
-      <img src="images/event-image/ctitle.png" class="title" />
-      <img src="images/event-image/coding 2.jpg" class="character" />
-    </div>
-  </a>
-  
-</div>
-<div class="card-1">
-  <a href="https://www.mythrillfiction.com/force-mage" alt="Mythrill" target="_blank" >
-   <div class="card">
-     <div class="wrapper">
-       <img src="images/event-image/idea3.jpeg" class="cover-image" />
-     </div>
-     <img src="images/event-image/idea2.png" class="character" />
-   </div>
- </a>
-</div>
-<div class="card-1">
-  <a href="https://www.mythrillfiction.com/force-mage" alt="Mythrill" target="_blank" >
-   <div class="card">
-     <div class="wrapper">
-       <img src="images/event-image/sfm.png" class="cover-image" />
-     </div>
-     <img src="images/event-image/sfm2.gif" class="character" />
-   </div>
- </a>
-</div>
-<div class="card-1">
-  <a href="https://www.mythrillfiction.com/force-mage" alt="Mythrill" target="_blank" >
-   <div class="card">
-     <div class="wrapper">
-       <img src="https://ggayane.github.io/css-experiments/cards/force_mage-cover.jpg" class="cover-image" />
-     </div>
-     <img src="https://ggayane.github.io/css-experiments/cards/force_mage-character.webp" class="character" />
-   </div>
- </a>
-</div>
-<div class="card-1">
-  <a href="https://www.mythrillfiction.com/force-mage" alt="Mythrill" target="_blank" >
-   <div class="card">
-     <div class="wrapper">
-       <img src="https://ggayane.github.io/css-experiments/cards/force_mage-cover.jpg" class="cover-image" />
-     </div>
-     <img src="https://ggayane.github.io/css-experiments/cards/force_mage-character.webp" class="character" />
-   </div>
- </a>
-</div>
-<div class="card-1">
-  <a href="https://www.mythrillfiction.com/force-mage" alt="Mythrill" target="_blank" >
-   <div class="card">
-     <div class="wrapper">
-       <img src="https://ggayane.github.io/css-experiments/cards/force_mage-cover.jpg" class="cover-image" />
-     </div>
-     <img src="https://ggayane.github.io/css-experiments/cards/force_mage-character.webp" class="character" />
-   </div>
- </a>
-</div>
-</div>
     </section>
     <hr>
     <!------ Include the above in your HEAD tag ---------->
     <!-- Footer -->
-    <footer
-      id="footer"
-      class="footer bg-dark text-white p-5"
-    >
+    <footer id="footer" class="footer bg-dark text-white p-5">
       <div class="container">
         <div class="row border-bottom-black">
           <div class="col-sm-6 col-md-4">
             <div class="widget dark">
-              <img
-                class="mb-4"
-                alt=""
-                src="images/clg_trans_logo.png"
-                style="width: 165px; height: 165px;"
-              />
+              <img class="mb-4" alt="" src="images/clg_trans_logo.png" style="width: 165px; height: 165px;" />
               <p>
                 Old Dhamtari Road, Sejabahar P.O., Mujgahan, Raipur,
                 Chhattisgarh 492015
@@ -832,17 +724,12 @@ As we embark on another exciting edition we invite you to join us in celebrating
                 </li>
                 <li class="mb-2 pr-4">
                   <i class="fas fa-envelope-open-text"></i>
-                  <a
-                    href="/cdn-cgi/l/email-protection#0667617463756f72674675756f766b722865696b"
-                    class="text-gray"
-                    >agresita@ssipmt.com</a
-                  >
+                  <a href="/cdn-cgi/l/email-protection#0667617463756f72674675756f766b722865696b"
+                    class="text-gray">agresita@ssipmt.com</a>
                 </li>
                 <li class="mb-2 pr-4">
                   <i class="fas fa-globe"></i>
-                  <a class="text-gray" href="https://www.ssipmt.com/"
-                    >www.ssipmt.com</a
-                  >
+                  <a class="text-gray" href="https://www.ssipmt.com/">www.ssipmt.com</a>
                 </li>
               </ul>
             </div>
@@ -862,43 +749,15 @@ As we embark on another exciting edition we invite you to join us in celebrating
               <h6 class="widget-title mb-4 text-gray-darkgray">
                 Connect With Us
               </h6>
-              <div
-                class="d-flex justify-content-space-around"
-                id="footer-social"
-              >
-                <a
-                  class="btn-float text-primary pr-4"
-                  href="https://www.facebook.com/AgresitaOfficial"
-                  type="button"
-                  role="button"
-                  target="_blank"
-                  ><i class="fab fa-facebook fa-2x"></i
-                ></a>
-                <a
-                  href="https://youtu.be/vujC3UX2Hpk"
-                  type="button"
-                  role="button"
-                  target="_blank"
-                  class="btn-float text-danger pr-4"
-                  ><i class="fab fa-youtube fa-2x"></i
-                ></a>
-                <a
-                  href="https://instagram.com/agresita_ssipmt?igshid=qm57wrdv67e3"
-                  type="button"
-                  role="button"
-                  target="_blank"
-                  class="btn-float text-white"
-                  ><i class="fab fa-instagram fa-2x pr-4"></i
-                ></a>
-                <a
-                  href="https://www.linkedin.com/in/ssipmt-raipur-430a01120/"
-                  type="button"
-                  role="button"
-                  target="_blank"
-                  class="btn-float text-info"
-                  
-                  ><i class="fab fa-linkedin fa-2x pr-4"></i
-                ></a>
+              <div class="d-flex justify-content-space-around" id="footer-social">
+                <a class="btn-float text-primary pr-4" href="https://www.facebook.com/AgresitaOfficial" type="button"
+                  role="button" target="_blank"><i class="fab fa-facebook fa-2x"></i></a>
+                <a href="https://youtu.be/vujC3UX2Hpk" type="button" role="button" target="_blank"
+                  class="btn-float text-danger pr-4"><i class="fab fa-youtube fa-2x"></i></a>
+                <a href="https://instagram.com/agresita_ssipmt?igshid=qm57wrdv67e3" type="button" role="button"
+                  target="_blank" class="btn-float text-white"><i class="fab fa-instagram fa-2x pr-4"></i></a>
+                <a href="https://www.linkedin.com/in/ssipmt-raipur-430a01120/" type="button" role="button"
+                  target="_blank" class="btn-float text-info"><i class="fab fa-linkedin fa-2x pr-4"></i></a>
               </div>
             </div>
           </div>
@@ -907,13 +766,8 @@ As we embark on another exciting edition we invite you to join us in celebrating
             <div class="widget dark my-4">
               <iframe
                 src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d59540.5392781204!2d81.691997!3d21.141105!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x3f6847db83d1b08e!2sShri%20Shankaracharya%20Institute%20Of%20Professional%20Management%20And%20Technology%2C%20Raipur!5e0!3m2!1sen!2sin!4v1568301952193!5m2!1sen!2sin"
-                width="375rem"
-                height="300rem"
-                frameborder="0"
-                style="border:0;"
-                allowfullscreen=""
-                class="rounded img-fluid"
-              ></iframe>
+                width="375rem" height="300rem" frameborder="0" style="border:0;" allowfullscreen=""
+                class="rounded img-fluid"></iframe>
             </div>
           </div>
         </div>
@@ -928,25 +782,16 @@ As we embark on another exciting edition we invite you to join us in celebrating
 
     <!-- SCRIPTS -->
     <!-- JQuery -->
-    <script
-      data-cfasync="false"
-      src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"
-    ></script>
-    <script
-      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
       integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
       integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
       integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-      crossorigin="anonymous"
-    ></script>
+      crossorigin="anonymous"></script>
     <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
     <script src="gallery.js"></script>
     <script src="hamburger.js"></script>
@@ -968,5 +813,6 @@ As we embark on another exciting edition we invite you to join us in celebrating
         easing: "ease-in-out" // default easing for AOS animations
       });
     </script>
-  </body>
+</body>
+
 </html>
