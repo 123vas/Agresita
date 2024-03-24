@@ -49,8 +49,7 @@ img {
 }
 
 header {
-  background: linear-gradient(to top, #1f2c3a 0%, #2f3c4742 100%), url("https://images.unsplash.com/photo-1529156069898-49953e39b3ac?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D") no-repeat 50% 50%/cover;
-  width: 100%;
+  background: linear-gradient(to top, #1f2c3a 0%, #2f3c4742 100%);
   min-height: 25em;
   display: flex;
   flex-direction: column;
