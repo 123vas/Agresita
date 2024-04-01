@@ -1,26 +1,36 @@
-/* Responsive CSS */
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.card {
+  width: 300px;
+  margin: 15px;
+}
+.card__image {
+  width: 100%;
+  height: auto;
+}
+.card__content {
+  padding: 15px;
+}
 
-/* Adjustments for smaller screens */
-@media screen and (max-width: 780px) {
-  .articles {
-    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); /* Adjust grid columns for smaller screens */
+@media (max-width: 600px) {
+  .card {
+      width: 100%;
+      margin: 10px 0;
   }
-  article {
-    height: auto; /* Change height to auto for smaller screens */
-  }
-  article .article-body p {
-    display: none; /* Hide paragraphs in article body for smaller screens */
+}
+@media (min-width: 601px) and (max-width: 900px) {
+  .card {
+      width: 48%;
+      margin: 1%;
   }
 }
 
 /* Media query for card layout at certain container sizes */
 @media (min-width: 320px) {
-  .article-wrapper {
-    grid-template-columns: 100px 1fr; /* Adjust grid columns for article wrapper */
-  }
-  .article-body {
-    padding-left: 0; /* Remove left padding for article body */
-  }
+
   figure {
     width: 100%; /* Set figure width to 100% */
     height: 100%; /* Set figure height to 100% */
@@ -61,132 +71,11 @@
   width: 1px;
 }
 
-article {
-  --img-scale: 1.001;
-  --title-color: black;
-  --link-icon-translate: -20px;
-  --link-icon-opacity: 0;
-  position: relative;
-  border-radius: 16px;
-  box-shadow: none;
-  background: #fff;
-  transform-origin: center;
-  transition: all 0.4s ease-in-out;
-  overflow: hidden;
-  height:100%;
-}
-
-article a::after {
-  position: absolute;
-  inset-block: 0;
-  inset-inline: 0;
-  cursor: pointer;
-  content: "";
-}
-
-/* basic article elements styling */
-article h2 {
-  margin: 0 0 18px 0;
-  font-family: "Bebas Neue", cursive;
-  font-size: 1.9rem;
-  letter-spacing: 0.06em;
-  color: var(--title-color);
-  transition: color 0.3s ease-out;
-}
-
-figure {
-  margin: 0;
-  padding: 0;
-  /* aspect-ratio: 16 / 9; */
-  height:100%;
-  overflow: hidden;
-}
-
-article img {
-  max-width: 100%;
-  transform-origin: center;
-  transform: scale(var(--img-scale));
-  transition: transform 0.4s ease-in-out;
-}
-
-.article-body {
-  padding: 24px;
-}
-
-article a {
-  display: inline-flex;
-  align-items: center;
-  text-decoration: none;
-
-}
-
-article a:focus {
-  outline: 1px dotted;
-}
-
-article a .icon {
-  min-width: 24px;
-  width: 24px;
-  height: 24px;
-  margin-left: 5px;
-  transform: translateX(var(--link-icon-translate));
-  opacity: var(--link-icon-opacity);
-  transition: all 0.3s;
-}
-
-/* using the has() relational pseudo selector to update our custom properties */
-article:has(:hover, :focus) {
-  --img-scale: 1.1;
-  --title-color:;
-  --link-icon-translate: 0;
-  --link-icon-opacity: 1;
-  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
-}
-
-
-/************************ 
-Generic layout (demo looks)
-**************************/
-
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
-
-
-
-.articles {
-  display: grid;
-  max-width: 1200px;
-  margin-inline: auto;
-  padding-inline: 24px;
-  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
-  gap: 24px;
-}
-/* Responsive CSS */
-
 /* Adjustments for smaller screens */
-@media screen and (max-width: 780px) {
-  .articles {
-    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); /* Adjust grid columns for smaller screens */
-  }
-  article {
-    height: auto; /* Change height to auto for smaller screens */
-  }
-  article .article-body p {
-    display: none; /* Hide paragraphs in article body for smaller screens */
-  }
-}
 
 /* Media query for card layout at certain container sizes */
 @media (min-width: 320px) {
-  .article-wrapper {
-    grid-template-columns: 100px 1fr; /* Adjust grid columns for article wrapper */
-  }
-  .article-body {
-    padding-left: 0; /* Remove left padding for article body */
-  }
+
   figure {
     width: 100%; /* Set figure width to 100% */
     height: 100%; /* Set figure height to 100% */
@@ -250,25 +139,10 @@ Generic layout (demo looks)
 }
 
 
-@media screen and (max-width: 960px) {
-  article {
-    container: card/inline-size;
-  }
-  .article-body p {
-    display: none;
-  }
-}
+
 
 @container card (min-width: 380px) {
-  .article-wrapper {
-    display:flex;
-    flex-wrap:wrap;
-    grid-template-columns: 100px 1fr;
-    gap: 16px;
-  }
-  .article-body {
-    padding-left: 0;
-  }
+
   figure {
     width: 100%;
     height: 100%;
@@ -306,10 +180,7 @@ a {
 #home {
   transition: all 0.5s ease-in-out;
 }
-.poster{
-  display: flex;
-  flex-wrap: wrap;
-}
+
 .navbar-toggler:focus,
 .navbar-toggler:active {
   outline: none;
